@@ -1,0 +1,99 @@
+/* Icons */
+.call-ico {
+    background-image: url('../img/sprite.png');
+    background-position: 0 0;
+    width: 14px;
+    height: 14px;
+}
+
+/* banner arrows */
+.arrow-ico-left,
+.arrow-ico-right {
+    background: url('../img/sprite.png') no-repeat;
+    width: 8px;
+    height: 15px;
+    margin: auto;
+}
+
+/* Icons for types */
+.icon {
+    position: relative;
+    display: inline-block;
+}
+
+.icon::before {
+    background: url('../img/sprite.png');
+}
+
+.clipboard-ico::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    background-position: 0 -55px;
+    top: -17px;
+}
+
+.like-plus-ico::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+    background-position: -30px -55px;
+    top: -17px;
+}
+
+.takeaway-cup-ico::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 22px;
+    background-position: -68px -55px;
+    top: -17px;
+}
+
+.group-ico::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+    background-position: -92px -55px;
+    top: -17px;
+}
+
+.pencil-ico::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-position: 0 -89px;
+    top: -17px;
+    left: 16px;
+}
+
+.paper-plane-ico::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-position: -41px -89px;
+    top: -17px;
+    left: 16px;
+}
+
+.portfolio-ico::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background-position: -92px -89px;
+    top: -17px;
+    left: 16px;
+}
